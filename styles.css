@@ -1,0 +1,135 @@
+* { box-sizing: border-box; }
+
+body { background-color: #eaeaea; }
+
+#wrapper { margin: auto; width: 95%;
+    background-image: linear-gradient(to top, #00e476, #f20066);
+    box-shadow: 5px 5px 5px #000;
+    display: grid;
+    grid-template-columns: 180px auto;
+    grid-template-rows: auto auto;
+}
+
+header { background-color: #f20066;
+        text-align: center;
+        grid-row: 1/2; grid-column: 1/3;
+}
+header a { text-decoration: none; }
+header a:link { color: #000; }
+header a:visited { color: #000; }
+header a:hover { color: #fff; }
+
+h1 { margin-bottom: 0; margin-top: 0;
+    padding-top: 0.5em; padding-bottom: 0.5em;
+    letter-spacing: 0.1em;
+    font-family: Georgia, "Times New Roman", serif; 
+}
+
+#cresthero { height: 75px; 
+            background-image: url(crest.jpg);
+            background-size: 17% 100%;
+}
+
+nav { background-image: linear-gradient(to top, #00e476, #f20066);
+    font-weight: bold;
+    padding-left: 1em;
+    font-size: 120%;
+    text-align: left;
+    grid-row: 2/5; grid-column: 1/2;
+}
+
+nav a { text-decoration: none; }
+nav a:link { color: #000; }
+nav a:visited { color: #000; }
+nav a:hover { color: #fff; }
+
+nav ul { display: flex;
+        flex-direction: column; 
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+div { grid-row: 2/3; grid-column: 2/3;}
+
+p, dt, dd{ font-family: Arial, Helvetica, sans-serif; }
+
+dt { font-weight: bold; }
+
+main { padding-top: 1px; padding-bottom: 20px;
+        padding-right: 20px; padding-left: 30px;
+        background-image: linear-gradient(to top, #00e476, #ff9700);
+        grid-row: 3/4; grid-column: 2/3; 
+}
+
+#home { display: block; overflow: auto; }
+
+#garvey { display: block; overflow: auto; }
+
+#tree { display: block; overflow: auto; }
+
+#report { display: block; overflow: auto; }
+
+#photos { display: block; overflow: auto; }
+
+#about { display: block; overflow: auto; }
+
+footer { font-size: 75%;
+        font-style: italic;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 2em;
+        background-color: #00e476;
+        grid-row: 4/5; grid-column: 2/3; 
+}
+
+#gallery { display: grid;
+        grid-template-columns: 220px 220px 220px 220px;
+        grid-template-rows: auto;
+}
+
+#gallery img { padding: 10px; }
+
+form{ display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+form label { padding-left: 10px; }
+
+table { margin: auto; border: 5px solid #05a10d ;}
+
+td, th { border: 1px solid #000; padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-style: none;
+}
+td { background-color: #FFF; }
+
+caption { font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-weight:bold;
+        font-size: 1.2em; 
+        padding-bottom: 5px;
+}
+
+#dna { display: flex; flex-direction: row; flex-wrap: nowrap; }
+
+video, embed { float: right; padding-left: 20px; }
+
+#tree img { display: block; 
+        width: 80%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        min-width: 400px; 
+}
+
+#about dt { font-weight: bold; font-size: 120%; }
+#about dt a { text-decoration: none; }
+#about dt a:link { color: #000; }
+#about dt a:visited { color: #000; }
+#about dt a:hover { color: #fff; }
+
+#garvey dt { font-size: 25px; }
